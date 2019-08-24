@@ -12,22 +12,22 @@ Module.register("compliments", {
 	defaults: {
 		compliments: {
 			anytime: [
-				"Hey there sexy!"
+				"Grüß Gott!"
 			],
 			morning: [
-				"Good morning, handsome!",
-				"Enjoy your day!",
-				"How was your sleep?"
+				"Guten Morgen!",
+				"Hab' einen schönen Tag!",
+				"Gut geschlafen?"
 			],
 			afternoon: [
-				"Hello, beauty!",
-				"You look sexy!",
-				"Looking good today!"
+				"Hallo!",
+				"Hey, Du siehst aber gut aus!",
+				"Viel Spaß noch!"
 			],
 			evening: [
-				"Wow, you look hot!",
-				"You look nice!",
-				"Hi, sexy!"
+				"Hey, Du siehst super aus!",
+				"Wow, bist Du hübsch!",
+				"Schönen Abend noch!"
 			]
 		},
 		updateInterval: 30000,
@@ -159,7 +159,7 @@ Module.register("compliments", {
 
 		var compliment = document.createTextNode(complimentText);
 		var wrapper = document.createElement("div");
-		wrapper.className = this.config.classes ? this.config.classes : "thin xlarge bright pre-line";
+		wrapper.className = this.config.classes ? this.config.classes : "thin xlarge bright";
 		wrapper.appendChild(compliment);
 
 		return wrapper;

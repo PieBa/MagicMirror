@@ -9,6 +9,40 @@
  * Changes to this files will be ignored by GIT. *
  *****************************************************/
 
+ .xsmall {
+  font-size: 12px;
+  line-height: 17px;	
+}
+
+.small {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.medium {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.large {
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.xlarge {
+  font-size: 70px;
+  line-height: 70px;
+  letter-spacing: -3px;
+}
+
+.MMM-FRITZ-Box-Callmonitor .calltype2{ color: red; }
+
+.MMM-FHEM .zu { color: green; } .MMM-FHEM .offen{ color: red; }
+
+.region.bottom.bar .container .module.newsfeed {
+    height: 100px; /* height of the module with maximum lines possible */
+}
+ 
  body {
  	
  }
